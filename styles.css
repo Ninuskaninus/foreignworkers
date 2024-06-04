@@ -18,9 +18,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   padding: 20px;
-  width: 100%;
+  margin-bottom: 50px;
 }
 
 .foreigners_top{
@@ -86,10 +85,10 @@ body {
 .foreigners_top_body_btncontainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   margin-top: 20px;
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   padding: 10px;
 }
 
@@ -115,7 +114,6 @@ body {
 .foreigners_btn button:hover{
   background: #FF6900;
   color: white;
-  font-weight: bold;
 }
 
 .foreigners_btn button img{
